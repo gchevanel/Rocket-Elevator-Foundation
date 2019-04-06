@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  standard: MyString
+  premium: MyString
+  excelium: MyString
+  doors: MyString
+  displays: MyString
+  buttons: MyString
+  safety_gears: MyString
+
+two:
+  standard: MyString
+  premium: MyString
+  excelium: MyString
+  doors: MyString
+  displays: MyString
+  buttons: MyString
+  safety_gears: MyString

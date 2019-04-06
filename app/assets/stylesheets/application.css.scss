@@ -1,0 +1,54 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "extralayers";
+@import "settings";
+@import "essentials";
+@import "layout";
+@import "header-1";
+@import "yellow";
+@import "custom";
+@import "owl.carousel";
+@import "owl.pack";
+//@import "green";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+@import "bootstrap-social";
+// @import "pages";
+// @import "demo-menu-blue";
+// @import "blue";
+
+
+
+//@import "custom-forms-v2";
+//@import "header-4";
+//@import "header-5";
+//@import "header-6";
+//@import "layout-dark";
+@import "layout-datatables";
+// @import "layout-footable-minimal";
+@import "layout-jqgrid";
+// @import "layout-RTL";
+// @import "layout-shop";
+// @import "pack-realestate";
+// @import "pages 2";
+// @import "pages";
+//@import "plugin-hover-buttons";
+//@import "thematics-construction";
+
+
+
+
+

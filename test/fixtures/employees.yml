@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name: MyString
+  phone: MyString
+  email: MyString
+  SIN: MyString
+  insurer: MyString
+  insurance_type: MyString
+  vacancy_days_left: 1
+  YTD_hour: MyString
+  YTD: MyString
+
+two:
+  full_name: MyString
+  phone: MyString
+  email: MyString
+  SIN: MyString
+  insurer: MyString
+  insurance_type: MyString
+  vacancy_days_left: 1
+  YTD_hour: MyString
+  YTD: MyString

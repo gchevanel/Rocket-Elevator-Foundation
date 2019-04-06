@@ -1,0 +1,45 @@
+<br><br><br>
+<center><section style="height: 100px; width: 500px;">
+<%= image_tag("R2.png", :alt => "logo") %>
+</center></section>
+
+<br><br><br><br><br><br>
+
+<center><h3 style=color:#0b64a0>Global status information</h3></center>
+
+<center><audio controls id = "audio", src = "", control = true ></audio></center>
+
+<script>
+    $(document).ready ( function () {
+        $.get("/watson?user_name=<%= current_user.first_name %>", function(data, status){
+        src = "/watson?user_name=<%= current_user.first_name %><%= current_user.last_name %>"
+        $('#audio').attr("src", src)
+    });
+});
+</script>  
+<%# 
+		<center><section>
+			<div class="container">
+
+				<!-- CHECKOUT FINAL MESSAGE -->
+				<div class="card card-default">
+					<div class="card-block">
+						<h3></h3>
+
+						<p>
+							Welcome to Rocket Elevator admin panels.<br />
+							
+						</p>
+
+						<hr />
+
+						<p>
+							Thank you very much for choosing us,<br />
+							<strong>Rocket Elevator</strong>
+						</p>
+					</div>
+				</div>
+				<!-- /CHECKOUT FINAL MESSAGE -->
+
+			</div>
+		</center></section> %>

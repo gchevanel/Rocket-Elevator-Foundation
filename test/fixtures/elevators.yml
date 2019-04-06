@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  column_id: 1
+  serial_number: MyString
+  elevator_class: MyString
+  type: 
+  status: MyString
+  date_of_commissioning: 2019-03-13
+  date_of_last_inspection: 2019-03-13
+
+two:
+  column_id: 1
+  serial_number: MyString
+  elevator_class: MyString
+  type: 
+  status: MyString
+  date_of_commissioning: 2019-03-13
+  date_of_last_inspection: 2019-03-13

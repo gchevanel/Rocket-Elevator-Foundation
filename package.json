@@ -1,0 +1,7 @@
+{
+  "name": "RocketElevators",
+  "private": true,
+  "dependencies": {
+    "chart.js": "^2.8.0"
+  }
+}

@@ -1,0 +1,21 @@
+id,Full_Name,Phone_Number,Company_Name,Email,Building_Type,Product_Grade,Nb_Appartement,Nb_Business,Nb_Floor,Nb_Basement,Nb_Cage,Nb_Parking,Nb_OccupantPerFloor,Nb_OpperatingHour,Final_Price,created_at,updated_at
+1,Den Swannack,679-412-0387,Romaguera Group,dswannack0@state.tx.us,Commercial,Standard,65,22,10,3,50,16,157,20,50000,2016-04-02 06:44:04,2018-11-03 15:53:39
+2,Tiffie Zamorano,410-112-6196,Wolff-Runte,tzamorano1@plala.or.jp,Hybrid,Premium,53,25,6,2,26,31,77,8,50000,2016-08-17 02:19:49,2018-10-10 05:17:42
+3,Cordi Arrowsmith,866-186-4550,"Schuppe, Sawayn and Ferry",carrowsmith2@howstuffworks.com,Corporate,Excelium,51,9,9,1,7,40,130,8,50000,2016-07-11 09:53:34,2018-03-23 00:54:06
+4,Hastings Warlow,738-642-8493,"Spinka, Runolfsson and Torp",hwarlow3@wiley.com,Corporate,Standard,18,6,5,3,44,23,60,19,50000,2017-04-17 07:42:30,2019-01-15 18:04:44
+5,Garner Todd,471-466-4725,Monahan and Sons,gtodd4@oaic.gov.au,Residential,Premium,19,16,20,2,22,40,129,9,50000,2017-02-27 06:27:24,2017-09-06 10:51:04
+6,Chet Ineson,969-697-5572,Lakin Group,cineson5@yelp.com,Corporate,Excelium,35,34,40,0,50,29,30,9,50000,2016-10-10 18:53:06,2017-12-29 05:55:54
+7,Jacquenetta Castellini,279-607-3773,"Schmitt, Wuckert and Kovacek",jcastellini6@omniture.com,Hybrid,Standard,28,8,35,0,28,17,89,17,50000,2016-09-21 01:03:55,2018-09-01 06:27:11
+8,Federico Robben,981-475-3428,"Stehr, Wilderman and Homenick",frobben7@networkadvertising.org,Corporate,Premium,20,13,40,1,38,47,113,6,50000,2016-12-05 14:14:22,2017-10-15 19:04:06
+9,Niko Kretchmer,884-967-0382,Tillman-Spencer,nkretchmer8@sohu.com,Residential,Excelium,26,12,9,3,42,16,75,12,50000,2017-01-31 10:59:12,2018-04-04 00:42:29
+10,Yoshiko Harvard,672-514-3855,Friesen Inc,yharvard9@hc360.com,Corporate,Standard,59,39,19,2,43,9,72,13,50000,2016-07-11 11:59:33,2017-10-25 22:00:49
+11,Bert Cluatt,130-103-9359,"Lebsack, Larson and Rowe",bcluatta@vk.com,Hybrid,Premium,30,5,19,2,41,34,119,4,50000,2017-02-28 08:38:48,2018-02-15 10:09:05
+12,Dewitt Jurczik,274-450-6512,Batz Inc,djurczikb@foxnews.com,Residential,Excelium,18,0,10,3,4,48,151,23,50000,2016-05-02 07:52:44,2019-01-20 21:54:50
+13,Celesta Kennon,307-430-7546,Upton-Schinner,ckennonc@privacy.gov.au,Residential,Standard,43,22,4,2,18,9,44,5,50000,2016-08-02 17:55:57,2019-02-05 02:16:07
+14,Jdavie Simonassi,802-176-4882,"Rosenbaum, Gleason and Haag",jsimonassid@youtu.be,Corporate,Premium,53,32,19,1,7,17,89,17,50000,2016-12-08 01:12:20,2017-06-27 07:56:35
+15,Vance Kornyakov,898-800-4087,Ferry and Sons,vkornyakove@auda.org.au,Corporate,Excelium,57,14,8,3,22,29,111,16,50000,2016-09-15 11:10:00,2018-06-08 22:37:59
+16,Bernadene MacElholm,586-650-8435,"Kuphal, Price and Kshlerin",bmacelholmf@mozilla.com,Hybrid,Standard,43,6,11,2,30,4,86,21,50000,2016-05-22 06:07:39,2018-05-26 17:27:13
+17,Pietrek Dyson,961-277-1864,"Dicki, Lehner and Koepp",pdysong@netscape.com,Commercial,Premium,25,0,24,3,7,28,177,12,50000,2016-10-10 09:20:57,2017-10-09 07:38:36
+18,Cornell Jakovijevic,626-600-7499,Beatty-Klocko,cjakovijevich@technorati.com,Commercial,Excelium,31,8,18,0,31,38,165,13,50000,2016-07-02 15:17:57,2018-09-24 06:00:57
+19,Wendall Henfre,570-278-7465,Schmeler-Yost,whenfrei@cisco.com,Commercial,Standard,15,10,19,3,43,44,187,17,50000,2016-08-27 02:02:34,2018-12-20 13:38:02
+20,Trefor Sandercock,191-964-1334,Heaney-O Reilly,tsandercockj@abc.net.au,Corporate,Premium,18,18,24,0,16,18,178,20,50000,2016-07-29 02:16:05,2017-07-25 10:21:35

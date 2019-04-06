@@ -1,0 +1,2 @@
+class ColumnStock < ApplicationRecord
+end

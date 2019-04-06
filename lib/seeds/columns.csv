@@ -1,0 +1,201 @@
+id,battery_id,column_type,status,information,notes,created_at,updated_at
+1,1,Residential,Inactive,Monitored bifurcated process improvement,Nulla nisl.,2017-04-06 16:23:03,2019-02-19 14:46:33
+2,2,Corporate,Intervention,Networked needs-based instruction set,Mauris ullamcorper purus sit amet nulla.,2016-07-09 05:39:50,2018-06-27 11:31:04
+3,3,Commercial,Active,Persevering bandwidth-monitored knowledge user,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,2017-03-18 01:35:13,2018-07-28 09:13:08
+4,4,Hybrid,Active,Realigned even-keeled alliance,In congue.,2016-10-07 07:27:52,2018-10-11 17:59:12
+5,5,Residential,Active,Profit-focused 6th generation moratorium,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,2016-10-15 07:27:02,2018-06-19 23:23:54
+6,6,Corporate,Active,Optimized 24 hour definition,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",2017-01-27 02:56:41,2018-04-27 03:32:52
+7,7,Commercial,Active,Function-based systematic function,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",2017-05-17 14:02:05,2018-06-14 01:40:50
+8,8,Hybrid,Active,Integrated attitude-oriented portal,Praesent blandit.,2017-05-22 19:42:01,2018-09-25 13:47:15
+9,9,Residential,Active,Centralized context-sensitive array,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",2017-05-11 19:44:50,2018-02-20 10:10:18
+10,10,Corporate,Inactive,Decentralized modular functionalities,Vivamus vel nulla eget eros elementum pellentesque.,2017-04-05 22:56:40,2017-08-02 16:29:37
+11,11,Commercial,Active,Customer-focused foreground benchmark,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",2016-07-31 15:50:15,2017-08-27 09:13:58
+12,12,Hybrid,Active,Multi-layered logistical open architecture,Aenean fermentum.,2017-02-11 04:06:27,2018-10-07 10:29:26
+13,13,Residential,Active,Profit-focused modular matrices,In hac habitasse platea dictumst.,2016-08-06 08:43:55,2018-10-15 20:31:23
+14,14,Corporate,Active,Vision-oriented solution-oriented frame,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",2016-05-30 03:08:04,2018-01-07 09:24:23
+15,15,Commercial,Active,Multi-lateral maximized knowledge user,Morbi non quam nec dui luctus rutrum. Nulla tellus.,2017-06-05 15:39:41,2018-03-23 06:45:00
+16,16,Hybrid,Active,Exclusive even-keeled service-desk,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",2017-01-09 02:07:24,2017-12-18 17:31:49
+17,17,Residential,Active,Reduced empowering initiative,Integer ac leo. Pellentesque ultrices mattis odio.,2016-10-26 11:59:28,2018-09-22 14:21:28
+18,18,Corporate,Active,Progressive directional process improvement,Etiam pretium iaculis justo.,2016-11-08 01:01:45,2018-01-21 05:07:39
+19,19,Commercial,Active,Quality-focused non-volatile internet solution,Maecenas rhoncus aliquam lacus.,2016-12-10 00:44:05,2018-07-09 07:03:11
+20,20,Hybrid,Active,Optimized zero tolerance encryption,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",2016-06-13 11:35:03,2018-11-02 06:24:33
+21,21,Residential,Active,Customer-focused hybrid projection,Duis mattis egestas metus. Aenean fermentum.,2017-05-02 21:05:21,2018-01-02 17:16:26
+22,22,Corporate,Active,Universal holistic workforce,Mauris sit amet eros.,2016-10-28 01:19:18,2018-09-16 02:00:26
+23,23,Commercial,Active,Triple-buffered 5th generation utilisation,Proin eu mi.,2016-03-13 06:31:56,2017-06-29 21:29:18
+24,24,Hybrid,Active,Quality-focused exuding hierarchy,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",2017-02-07 14:55:20,2018-04-17 06:33:59
+25,25,Residential,Active,Intuitive system-worthy structure,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",2016-07-16 20:02:23,2018-02-08 08:56:56
+26,26,Corporate,Active,Down-sized scalable support,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",2016-10-11 15:56:51,2018-06-01 18:41:08
+27,27,Commercial,Active,Up-sized content-based local area network,Aenean fermentum.,2016-04-30 16:32:10,2017-10-08 01:45:38
+28,28,Hybrid,Active,De-engineered asymmetric neural-net,Suspendisse accumsan tortor quis turpis.,2016-06-24 23:58:39,2017-12-07 15:03:18
+29,29,Residential,Active,Devolved zero defect interface,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",2017-05-07 21:23:21,2018-12-18 18:13:09
+30,30,Corporate,Active,Assimilated client-driven throughput,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,2016-11-25 04:40:07,2017-11-12 17:02:19
+31,31,Commercial,Active,Quality-focused bandwidth-monitored help-desk,Sed vel enim sit amet nunc viverra dapibus.,2017-04-18 08:50:44,2018-03-20 13:47:54
+32,32,Hybrid,Active,Multi-tiered regional complexity,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",2017-02-03 17:25:14,2017-08-31 22:08:13
+33,33,Residential,Active,Configurable empowering alliance,Mauris ullamcorper purus sit amet nulla.,2016-07-02 16:04:38,2018-02-12 20:05:02
+34,34,Corporate,Active,Programmable motivating toolset,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.,2016-04-16 06:43:24,2017-08-13 21:30:28
+35,35,Commercial,Inactive,Cross-group reciprocal support,Integer a nibh.,2017-01-16 14:25:56,2017-07-19 18:54:51
+36,36,Hybrid,Active,Cloned high-level task-force,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2016-04-10 08:37:24,2017-10-19 21:42:12
+37,37,Residential,Active,Open-architected interactive initiative,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.,2017-03-10 00:44:38,2019-01-29 12:25:28
+38,38,Corporate,Active,Ameliorated client-driven open architecture,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",2016-08-11 11:52:06,2017-11-29 01:10:24
+39,39,Commercial,Active,Object-based explicit process improvement,Sed vel enim sit amet nunc viverra dapibus.,2016-09-23 13:41:05,2017-09-27 20:40:36
+40,40,Hybrid,Active,Ergonomic methodical standardization,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",2016-12-31 07:31:19,2018-09-15 16:12:28
+41,41,Residential,Inactive,Optimized dedicated local area network,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",2016-07-23 19:52:12,2017-06-21 17:04:26
+42,42,Corporate,Active,Cross-group motivating moderator,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",2017-02-04 23:20:53,2018-12-28 12:21:03
+43,43,Commercial,Active,Reverse-engineered mission-critical matrices,Nulla ac enim.,2017-04-26 15:51:52,2018-03-06 13:16:41
+44,44,Hybrid,Active,Open-architected bandwidth-monitored interface,Nulla justo.,2016-04-16 04:37:11,2018-07-08 20:30:29
+45,45,Residential,Active,Distributed needs-based conglomeration,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",2016-09-07 13:07:47,2017-07-02 21:35:10
+46,46,Corporate,Active,Cross-group client-server utilisation,Morbi non lectus.,2016-08-26 17:13:43,2019-02-27 17:18:01
+47,47,Commercial,Active,Optional 6th generation capability,Aenean fermentum.,2016-12-14 07:19:36,2017-06-30 10:28:37
+48,48,Hybrid,Inactive,Open-architected mobile open system,Suspendisse potenti. Nullam porttitor lacus at turpis.,2017-03-10 10:37:36,2017-09-14 08:29:49
+49,49,Residential,Active,Networked zero administration parallelism,Etiam pretium iaculis justo. In hac habitasse platea dictumst.,2016-07-25 04:31:14,2018-12-06 21:00:27
+50,50,Corporate,Active,Customer-focused multimedia intranet,Cras in purus eu magna vulputate luctus.,2017-03-23 13:08:33,2018-03-18 16:02:08
+51,51,Commercial,Active,Enhanced actuating matrix,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",2016-05-08 19:55:16,2018-03-30 07:26:28
+52,52,Hybrid,Active,Progressive solution-oriented functionalities,Maecenas ut massa quis augue luctus tincidunt.,2017-05-30 15:38:55,2018-07-28 05:51:13
+53,53,Residential,Active,Customer-focused bifurcated product,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.,2016-05-09 22:51:16,2017-08-29 05:10:03
+54,54,Corporate,Active,Focused background internet solution,In hac habitasse platea dictumst.,2017-02-28 14:53:19,2018-02-14 12:39:06
+55,55,Commercial,Active,Optional actuating encoding,Vestibulum sed magna at nunc commodo placerat.,2016-04-11 00:15:01,2017-06-28 11:17:07
+56,56,Hybrid,Active,Customizable impactful frame,Morbi vel lectus in quam fringilla rhoncus.,2017-05-12 03:53:52,2017-11-15 00:16:35
+57,57,Residential,Active,Configurable value-added software,Nulla nisl. Nunc nisl.,2016-05-26 11:13:07,2019-01-14 22:11:29
+58,58,Corporate,Active,Synergistic upward-trending knowledge user,Integer ac leo.,2016-11-08 19:09:14,2017-07-10 19:11:47
+59,59,Commercial,Active,Customizable regional website,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",2016-10-31 06:45:29,2018-07-16 00:23:28
+60,60,Hybrid,Active,Public-key methodical artificial intelligence,Pellentesque at nulla. Suspendisse potenti.,2017-02-07 02:33:48,2017-06-17 05:52:48
+61,61,Residential,Active,Reactive optimal collaboration,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,2017-02-27 23:45:06,2018-05-10 06:16:00
+62,62,Corporate,Active,Pre-emptive national adapter,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.,2016-12-09 11:56:38,2017-11-13 08:06:28
+63,63,Commercial,Active,Optimized cohesive attitude,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",2017-01-28 05:58:42,2018-01-28 23:33:45
+64,64,Hybrid,Inactive,Focused real-time capability,Donec ut dolor.,2016-06-16 08:00:44,2017-11-02 13:37:18
+65,65,Residential,Active,Managed actuating concept,Aliquam non mauris.,2016-11-29 13:32:24,2017-08-09 11:42:48
+66,66,Corporate,Active,Open-architected demand-driven hub,Vivamus tortor.,2016-07-19 00:40:32,2017-06-13 12:06:55
+67,67,Commercial,Active,User-friendly multi-tasking utilisation,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.,2017-04-29 07:19:48,2018-09-17 11:16:15
+68,68,Hybrid,Active,Synergized real-time portal,Phasellus in felis. Donec semper sapien a libero.,2016-08-04 03:02:43,2018-09-14 19:57:40
+69,69,Residential,Active,Robust eco-centric matrix,Curabitur convallis.,2016-07-03 17:03:08,2018-06-13 00:28:42
+70,70,Corporate,Active,Exclusive 5th generation extranet,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.,2016-12-22 03:33:25,2018-04-26 09:59:09
+71,71,Commercial,Active,Up-sized heuristic service-desk,Nulla mollis molestie lorem.,2017-05-19 10:08:34,2018-08-17 22:02:47
+72,72,Hybrid,Active,Organized exuding firmware,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",2017-02-06 21:22:24,2017-11-11 05:05:31
+73,73,Residential,Active,Fundamental fresh-thinking neural-net,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",2016-06-03 14:22:34,2018-11-30 11:45:59
+74,74,Corporate,Active,Up-sized interactive standardization,Morbi porttitor lorem id ligula.,2016-11-30 06:02:09,2018-08-23 09:44:35
+75,75,Commercial,Active,Reduced didactic initiative,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",2016-06-25 21:39:40,2017-08-07 14:15:33
+76,76,Hybrid,Active,Proactive client-server hierarchy,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",2017-04-24 12:27:41,2018-03-21 05:45:45
+77,77,Residential,Active,Team-oriented solution-oriented extranet,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",2016-04-27 22:32:24,2018-11-13 09:28:35
+78,78,Corporate,Active,Virtual optimizing focus group,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",2017-06-08 06:00:19,2018-05-08 07:26:59
+79,79,Commercial,Active,Right-sized bifurcated monitoring,Proin eu mi.,2016-04-03 21:17:51,2018-08-06 01:03:33
+80,80,Hybrid,Active,Organized background software,In sagittis dui vel nisl.,2017-03-12 12:53:54,2017-09-03 23:44:16
+81,81,Residential,Active,Secured maximized access,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",2016-10-22 11:51:16,2019-03-06 07:36:49
+82,82,Corporate,Active,Open-architected stable access,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",2016-05-28 12:54:17,2018-07-17 12:14:36
+83,83,Commercial,Active,Reduced object-oriented hierarchy,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,2017-04-15 12:30:04,2018-02-17 05:06:27
+84,84,Hybrid,Active,Triple-buffered dedicated moratorium,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",2017-01-14 23:11:16,2019-02-06 22:22:55
+85,85,Residential,Active,Versatile system-worthy definition,Ut at dolor quis odio consequat varius. Integer ac leo.,2016-12-01 09:54:43,2018-04-30 18:45:55
+86,86,Corporate,Active,Optional heuristic policy,Mauris sit amet eros.,2016-08-10 05:48:47,2018-03-23 08:13:41
+87,87,Commercial,Active,Diverse solution-oriented infrastructure,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.,2016-09-21 17:39:27,2018-05-09 13:41:03
+88,88,Hybrid,Active,Networked directional database,Donec ut mauris eget massa tempor convallis.,2016-05-05 05:16:57,2018-11-20 13:02:08
+89,89,Residential,Active,Inverse well-modulated workforce,Donec vitae nisi.,2016-09-01 13:23:23,2017-12-02 04:08:47
+90,90,Corporate,Active,Proactive bandwidth-monitored software,Aenean lectus. Pellentesque eget nunc.,2017-01-06 14:26:15,2018-01-03 16:12:16
+91,91,Commercial,Active,Reverse-engineered user-facing archive,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",2016-10-04 04:18:55,2017-09-19 23:43:57
+92,92,Hybrid,Active,Team-oriented global Graphic Interface,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",2016-05-21 22:09:58,2018-03-11 19:30:43
+93,93,Residential,Active,Sharable bi-directional methodology,Nulla ut erat id mauris vulputate elementum. Nullam varius.,2017-03-10 23:41:53,2017-06-22 09:25:11
+94,94,Corporate,Active,Synergistic mobile superstructure,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",2016-08-19 17:03:32,2018-03-30 07:24:18
+95,95,Commercial,Active,Ameliorated empowering help-desk,Suspendisse potenti.,2016-10-28 08:47:09,2018-09-06 07:08:16
+96,96,Hybrid,Inactive,Sharable actuating knowledge user,Nulla ut erat id mauris vulputate elementum.,2017-03-09 08:18:45,2018-05-21 07:23:33
+97,97,Residential,Active,User-centric cohesive algorithm,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",2016-10-28 18:42:41,2018-09-26 06:51:07
+98,98,Corporate,Inactive,Centralized secondary database,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,2017-02-03 04:47:10,2018-05-05 09:23:08
+99,99,Commercial,Active,Synergized client-driven emulation,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",2016-06-19 17:12:41,2018-09-23 06:04:03
+100,100,Hybrid,Active,Seamless tangible intranet,Donec posuere metus vitae ipsum. Aliquam non mauris.,2017-03-27 15:54:44,2019-03-05 03:27:04
+101,101,Residential,Active,Synergized object-oriented migration,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",2017-05-15 14:02:46,2017-07-14 05:25:54
+102,102,Corporate,Active,Vision-oriented motivating forecast,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",2017-05-07 03:29:33,2018-01-31 14:27:44
+103,103,Commercial,Inactive,Persistent bandwidth-monitored pricing structure,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",2016-04-30 13:07:06,2018-12-21 23:34:28
+104,104,Hybrid,Active,Intuitive grid-enabled archive,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.,2016-05-19 16:29:45,2017-08-26 12:50:27
+105,105,Residential,Active,Expanded fresh-thinking process improvement,Maecenas ut massa quis augue luctus tincidunt.,2016-11-16 14:59:26,2017-12-09 20:26:30
+106,106,Corporate,Active,Front-line modular info-mediaries,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,2017-01-04 05:31:03,2017-10-02 12:40:41
+107,107,Commercial,Active,Exclusive non-volatile contingency,Integer non velit.,2016-03-16 03:18:17,2018-08-11 15:38:04
+108,108,Hybrid,Active,Ergonomic grid-enabled structure,Donec vitae nisi.,2017-06-06 18:46:23,2017-08-25 09:15:41
+109,109,Residential,Active,Optional human-resource structure,Phasellus id sapien in sapien iaculis congue.,2016-04-10 21:20:14,2018-01-10 08:27:33
+110,110,Corporate,Active,Virtual explicit project,Integer non velit.,2016-11-21 21:09:51,2018-01-09 08:01:28
+111,111,Commercial,Active,Quality-focused neutral flexibility,Etiam justo. Etiam pretium iaculis justo.,2016-09-28 14:24:34,2018-06-11 22:42:52
+112,112,Hybrid,Active,Public-key logistical help-desk,Nullam porttitor lacus at turpis.,2016-07-20 10:54:02,2017-08-04 17:47:27
+113,113,Residential,Active,Quality-focused composite architecture,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",2017-01-06 19:15:31,2017-06-24 22:32:15
+114,114,Corporate,Active,Virtual dedicated analyzer,In hac habitasse platea dictumst.,2017-03-26 17:17:13,2017-08-07 13:36:42
+115,115,Commercial,Active,Expanded homogeneous firmware,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",2017-04-08 03:07:53,2018-02-28 20:07:50
+116,116,Hybrid,Active,Distributed asynchronous superstructure,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,2017-05-15 19:37:28,2018-12-14 21:51:26
+117,117,Residential,Active,Synergistic scalable matrices,Etiam faucibus cursus urna. Ut tellus.,2016-12-02 06:29:42,2017-11-04 10:32:13
+118,118,Corporate,Active,Universal 6th generation parallelism,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",2016-07-23 23:44:47,2018-03-23 18:37:22
+119,119,Commercial,Inactive,Implemented intermediate productivity,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.,2016-06-14 10:40:39,2018-01-26 07:39:38
+120,120,Hybrid,Active,Assimilated global software,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.,2017-01-26 18:57:23,2017-10-07 04:43:14
+121,121,Residential,Active,Sharable full-range initiative,Curabitur in libero ut massa volutpat convallis.,2016-07-08 19:09:50,2018-05-13 08:49:57
+122,122,Corporate,Active,Robust fault-tolerant success,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",2017-05-31 16:05:37,2018-08-15 21:07:41
+123,123,Commercial,Active,Function-based clear-thinking concept,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.,2016-04-27 06:22:12,2017-09-13 15:05:27
+124,124,Hybrid,Active,Enhanced bi-directional data-warehouse,In blandit ultrices enim.,2016-05-16 03:46:08,2019-01-13 16:52:51
+125,125,Residential,Active,Horizontal responsive alliance,Etiam vel augue.,2016-03-15 11:44:23,2019-02-24 23:42:17
+126,126,Corporate,Active,Face to face stable frame,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",2017-03-23 04:42:48,2018-01-02 01:39:06
+127,127,Commercial,Active,Up-sized next generation approach,Donec posuere metus vitae ipsum. Aliquam non mauris.,2016-05-28 09:23:27,2019-02-28 00:47:11
+128,128,Hybrid,Active,Profit-focused national local area network,Praesent lectus.,2016-04-10 02:06:16,2017-10-24 00:03:01
+129,129,Residential,Active,Fully-configurable fresh-thinking functionalities,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.,2016-11-22 21:07:22,2017-09-07 03:49:04
+130,130,Corporate,Active,Cross-platform foreground budgetary management,Morbi vel lectus in quam fringilla rhoncus.,2017-01-02 12:43:20,2017-09-04 14:20:15
+131,131,Commercial,Active,Total needs-based algorithm,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.,2016-09-22 05:16:31,2018-01-23 11:48:20
+132,132,Hybrid,Intervention,Exclusive mission-critical migration,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",2016-06-27 12:47:09,2017-09-29 01:32:48
+133,133,Residential,Active,Virtual human-resource interface,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,2016-05-02 14:10:14,2017-11-07 18:26:14
+134,134,Corporate,Active,Proactive fault-tolerant info-mediaries,Nunc purus.,2016-04-13 03:39:32,2018-05-11 16:59:28
+135,135,Commercial,Active,Devolved human-resource encryption,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",2016-12-27 23:43:01,2018-07-05 06:12:10
+136,136,Hybrid,Active,Exclusive attitude-oriented knowledge base,Phasellus sit amet erat. Nulla tempus.,2016-04-08 10:15:43,2019-01-27 09:21:53
+137,137,Residential,Active,Balanced web-enabled throughput,Suspendisse potenti.,2016-06-13 12:19:42,2018-09-11 03:58:36
+138,138,Corporate,Active,Monitored tertiary array,Sed sagittis.,2016-12-31 14:21:10,2017-12-18 10:01:38
+139,139,Commercial,Active,Profit-focused stable Graphical User Interface,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",2016-06-10 13:28:40,2017-12-26 22:29:22
+140,140,Hybrid,Active,Mandatory fresh-thinking policy,Pellentesque viverra pede ac diam.,2016-09-20 11:29:20,2018-03-14 10:46:12
+141,141,Residential,Active,Customizable client-driven application,Curabitur convallis.,2017-01-25 04:25:25,2018-10-14 21:23:22
+142,142,Corporate,Intervention,Ameliorated tangible matrix,Sed accumsan felis.,2016-08-18 21:29:39,2018-04-16 18:52:20
+143,143,Commercial,Intervention,Upgradable interactive approach,Donec ut dolor.,2017-06-09 22:49:28,2017-08-24 00:36:32
+144,144,Hybrid,Active,Universal well-modulated success,Morbi a ipsum. Integer a nibh.,2016-03-28 11:51:22,2018-09-25 19:57:46
+145,145,Residential,Active,Self-enabling bandwidth-monitored moratorium,Aenean fermentum.,2017-02-28 11:26:25,2019-01-08 09:46:26
+146,146,Corporate,Active,Horizontal attitude-oriented encoding,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",2016-12-02 12:05:02,2018-11-30 00:36:39
+147,147,Commercial,Active,Customizable regional system engine,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.,2016-09-09 17:16:16,2018-10-14 03:04:12
+148,148,Hybrid,Active,User-centric national service-desk,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",2016-04-21 07:30:29,2017-08-23 15:12:01
+149,149,Residential,Active,Down-sized context-sensitive function,Nulla ac enim.,2016-07-18 19:46:22,2017-06-14 17:53:55
+150,150,Corporate,Active,Multi-tiered directional secured line,Duis aliquam convallis nunc.,2016-07-18 19:37:00,2017-12-31 15:07:08
+151,151,Commercial,Inactive,Function-based zero defect paradigm,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",2016-07-23 23:32:17,2018-06-29 19:02:45
+152,152,Hybrid,Active,Grass-roots needs-based focus group,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",2016-08-25 13:11:01,2017-09-16 18:25:05
+153,153,Residential,Active,Open-source next generation synergy,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.,2017-01-21 00:07:50,2018-08-16 07:07:21
+154,154,Corporate,Active,Front-line discrete help-desk,Aliquam erat volutpat. In congue.,2017-03-08 03:27:43,2019-02-18 02:18:56
+155,155,Commercial,Active,Organized background focus group,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",2017-02-27 15:08:03,2017-08-01 19:40:31
+156,156,Hybrid,Active,Object-based object-oriented utilisation,Aenean sit amet justo. Morbi ut odio.,2016-11-08 18:37:01,2018-04-30 14:42:44
+157,157,Residential,Active,Organized foreground budgetary management,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",2016-12-06 05:24:08,2018-12-16 20:44:42
+158,158,Corporate,Active,Front-line static middleware,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",2016-11-23 03:22:02,2018-07-23 13:24:01
+159,159,Commercial,Active,Phased homogeneous architecture,Aenean sit amet justo. Morbi ut odio.,2016-06-13 11:51:39,2017-10-19 14:11:17
+160,160,Hybrid,Active,Distributed multimedia process improvement,Proin at turpis a pede posuere nonummy. Integer non velit.,2016-03-24 13:27:10,2017-09-22 02:54:54
+161,161,Residential,Inactive,Face to face client-server task-force,Sed accumsan felis.,2017-06-07 00:21:37,2017-06-30 19:12:27
+162,162,Corporate,Active,Cross-group empowering contingency,Vivamus tortor. Duis mattis egestas metus.,2017-04-27 10:41:00,2018-12-30 18:50:50
+163,163,Commercial,Active,Networked global database,In quis justo.,2017-05-30 05:36:47,2017-08-10 01:33:19
+164,164,Hybrid,Active,Profound executive product,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.,2016-07-06 10:43:12,2019-02-10 12:35:08
+165,165,Residential,Active,Vision-oriented well-modulated forecast,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.,2017-03-03 09:22:38,2019-02-15 01:27:01
+166,166,Corporate,Active,Diverse tangible initiative,Vestibulum rutrum rutrum neque.,2016-06-22 04:31:14,2018-11-03 06:25:27
+167,167,Commercial,Active,Grass-roots intangible algorithm,Nulla nisl. Nunc nisl.,2016-07-17 00:27:34,2018-04-17 19:17:46
+168,168,Hybrid,Active,Team-oriented needs-based neural-net,Phasellus sit amet erat. Nulla tempus.,2016-09-30 19:44:34,2019-03-06 08:02:57
+169,169,Residential,Active,Enhanced coherent solution,Nulla ut erat id mauris vulputate elementum.,2016-03-28 04:44:05,2019-02-28 07:42:30
+170,170,Corporate,Active,Expanded radical capability,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.,2017-01-05 03:25:59,2018-12-01 04:53:17
+171,171,Commercial,Active,Multi-layered fault-tolerant policy,Quisque porta volutpat erat.,2016-09-10 15:09:01,2018-05-14 21:12:43
+172,172,Hybrid,Active,Triple-buffered mission-critical matrices,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",2016-07-20 14:25:40,2019-01-09 18:43:30
+173,173,Residential,Active,Monitored fresh-thinking hardware,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,2016-07-21 03:13:18,2018-12-22 05:18:43
+174,174,Corporate,Inactive,Fully-configurable responsive initiative,Suspendisse potenti.,2016-12-18 16:43:35,2017-07-25 01:28:10
+175,175,Commercial,Active,Distributed content-based help-desk,Praesent blandit.,2016-03-20 09:12:27,2018-09-17 20:58:53
+176,176,Hybrid,Active,Exclusive multimedia project,Vestibulum rutrum rutrum neque.,2016-06-23 10:41:14,2018-01-27 16:26:10
+177,177,Residential,Active,Adaptive background task-force,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.,2016-11-28 21:09:18,2018-11-04 04:38:37
+178,178,Corporate,Active,Optional bi-directional intranet,Morbi non quam nec dui luctus rutrum. Nulla tellus.,2017-02-21 22:06:15,2017-10-27 03:31:07
+179,179,Commercial,Active,Operative multi-tasking emulation,Praesent blandit lacinia erat.,2016-03-28 07:49:48,2019-02-23 00:56:25
+180,180,Hybrid,Active,Decentralized zero defect groupware,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.,2017-01-11 23:33:04,2018-07-03 14:10:34
+181,181,Residential,Active,Realigned client-server installation,Pellentesque at nulla.,2017-02-01 19:40:43,2018-06-04 18:24:27
+182,182,Corporate,Active,Automated exuding encryption,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",2016-11-07 21:46:52,2019-02-28 15:31:13
+183,183,Commercial,Intervention,Triple-buffered user-facing moderator,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",2016-06-13 19:43:09,2018-07-15 23:37:23
+184,184,Hybrid,Active,Balanced asymmetric parallelism,Etiam faucibus cursus urna. Ut tellus.,2016-04-30 02:34:28,2019-02-03 20:17:43
+185,185,Residential,Active,Visionary national hub,Praesent blandit. Nam nulla.,2017-03-14 14:26:57,2017-12-14 08:07:41
+186,186,Corporate,Active,Multi-channelled exuding instruction set,Vivamus vel nulla eget eros elementum pellentesque.,2017-01-12 02:08:22,2017-11-01 20:44:07
+187,187,Commercial,Active,Expanded actuating info-mediaries,Proin eu mi.,2016-11-20 04:39:33,2018-07-19 03:33:25
+188,188,Hybrid,Active,Inverse next generation middleware,Nulla nisl.,2017-01-21 23:10:20,2017-11-05 19:45:01
+189,189,Residential,Active,Distributed disintermediate circuit,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.,2016-06-04 10:46:51,2018-09-29 06:56:44
+190,190,Corporate,Active,Optional empowering moratorium,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",2017-03-10 08:19:00,2018-10-06 17:20:37
+191,191,Commercial,Active,Progressive motivating matrices,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.,2016-03-25 23:18:23,2018-09-11 06:03:08
+192,192,Hybrid,Active,Sharable attitude-oriented database,Aenean sit amet justo. Morbi ut odio.,2016-03-30 12:53:32,2018-05-30 12:25:05
+193,193,Residential,Active,Versatile context-sensitive conglomeration,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",2016-03-13 15:18:54,2017-09-06 18:49:12
+194,194,Corporate,Active,Business-focused demand-driven Graphical User Interface,Aenean sit amet justo.,2016-06-09 18:29:19,2018-07-27 19:45:42
+195,195,Commercial,Active,Proactive didactic open architecture,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",2016-03-29 10:04:31,2017-12-18 18:35:42
+196,196,Hybrid,Active,Grass-roots zero tolerance matrix,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",2016-10-24 05:28:23,2018-07-14 16:44:35
+197,197,Residential,Active,Optional explicit initiative,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.,2017-04-01 00:03:33,2019-02-19 20:05:47
+198,198,Corporate,Active,De-engineered multi-tasking alliance,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",2016-10-28 12:59:27,2019-01-30 12:03:49
+199,199,Commercial,Active,Virtual optimizing utilisation,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",2016-11-06 12:27:33,2018-11-04 13:37:36
+200,200,Hybrid,Inactive,Streamlined mission-critical benchmark,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",2017-05-04 18:24:19,2017-10-24 01:59:29

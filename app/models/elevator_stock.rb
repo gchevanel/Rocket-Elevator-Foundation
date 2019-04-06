@@ -1,0 +1,2 @@
+class ElevatorStock < ApplicationRecord
+end

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Get Elevetor</title>
+    <style>
+        th, td, p, input {
+            font:14px Verdana;
+        }
+        table, th, td 
+        {
+            border: solid 1px #DDD;
+            border-collapse: collapse;
+            padding: 2px 3px;
+            text-align: center;
+        }
+        th {
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<script>
+
+$( document ).ready(function() {
+
+$("#table1").hide();
+$("#table2").hide();
+$("#table3").hide();
+$("#table4").hide();
+$("#table5").hide();
+
+$("#elevator").click(function(){
+  $("#table1").show();
+  $("#table2").hide();
+  $("#table3").hide();
+  $("#table4").hide();
+});
+
+
+$("#column").click(function(){
+  $("#table2").show();
+  $("#table1").hide();
+  $("#table3").hide();
+  $("#table4").hide();
+});
+
+$("#battery").click(function(){
+  $("#table3").show();
+  $("#table2").hide();
+  $("#table1").hide();
+  $("#table4").hide();
+});
+
+$("#building").click(function(){
+  $("#table4").show();
+  $("#table3").hide();
+  $("#table2").hide();
+  $("#table1").hide();
+});
+
+$("#lead").click(function(){
+  $("#table5").show();
+  $("#table4").hide();
+  $("#table3").hide();
+  $("#table2").hide();
+  $("#table1").hide();
+});
+
+});
+
+</script>
+
+    <input id="elevator" type="button" onclick="GetElevator()" value="Elevator GET" />
+    <input id="column" type="button" onclick="GetColumn()" value="Column GET" />
+    <input id="battery" type="button" onclick="GetBattery()" value="Battery GET" />
+    <input id="building" type="button" onclick="GetBuilding()" value="Building GET" />
+    <input id="lead" type="button" onclick="GetLead()" value="Lead GET" />
+   
+    <table id="table1">
+        <thead>
+            <tr>
+
+                <th>Column ID</th>    
+                <th>Elevator Status</th>
+            
+            </tr>
+        </thead>
+
+    </table>
+</body>
+
+<script>
+function GetElevator() {
+
+const Http = new XMLHttpRequest();
+const url='https://rocketelevatorapi20190405103718.azurewebsites.net/api/Elevator';
+Http.open("GET", url);
+
+Http.send();
+  
+    $(document).ready(function () {
+        $.getJSON(url,
+        function (json) {
+            var tr;
+            for (var i = 0; i < json.length; i++) {
+                tr = $('<tr/>');
+                tr.append("<td>" + json[i].column_id + "</td>");
+                tr.append("<td>" + json[i].status + "</td>");
+                $('#table1').append(tr);
+            }
+        });
+    });
+
+}
+
+</script>
+
+
+<%# GET COLUMN %>
+
+
+   
+    <table id="table2">
+    <thead>
+        <tr>
+
+            <th>Battery ID</th>    
+            <th>Column Status</th>
+          
+        </tr>
+    </thead>
+
+</table>
+</body>
+
+<script>
+function GetColumn() {
+
+const Http = new XMLHttpRequest();
+const url='https://rocketelevatorapi20190405103718.azurewebsites.net/api/Column';
+Http.open("GET", url);
+
+Http.send();
+  
+    $(document).ready(function () {
+        $.getJSON(url,
+        function (json) {
+            var tr;
+            for (var i = 0; i < json.length; i++) {
+                tr = $('<tr/>');
+                tr.append("<td>" + json[i].battery_id + "</td>");
+                tr.append("<td>" + json[i].status + "</td>");
+                $('#table2').append(tr);
+            }
+        });
+    });
+
+}
+
+</script>
+
+
+<%# GET battery%>
+
+    <table id="table3">
+    <thead>
+        <tr>
+
+            <th>Building ID</th>    
+            <th>Column Status</th>
+          
+        </tr>
+    </thead>
+
+</table>
+</body>
+
+<script>
+function GetBattery() {
+
+const Http = new XMLHttpRequest();
+const url='https://rocketelevatorapi20190405103718.azurewebsites.net/api/Battery';
+Http.open("GET", url);
+
+Http.send();
+  
+    $(document).ready(function () {
+        $.getJSON(url,
+        function (json) {
+            var tr;
+            for (var i = 0; i < json.length; i++) {
+                tr = $('<tr/>');
+                tr.append("<td>" + json[i].building_id + "</td>");
+                tr.append("<td>" + json[i].status + "</td>");
+                $('#table3').append(tr);
+            }
+        });
+    });
+
+}
+
+</script>
+
+<%# GET battery%>
+
+    <table id="table4">
+    <thead>
+        <tr>
+
+            <th>Customer id</th>    
+            <th>Address id</th>
+            <th>Building technical name</th>
+            <th>Building administrator phone</th>
+            <th>Building administrator email</th>
+            <th>Building administrator full_name</th>
+            <th>Building administrator phone</th>
+            <th>Building technical phone</th>
+          
+        </tr>
+    </thead>
+
+</table>
+</body>
+
+<script>
+function GetBuilding() {
+
+const Http = new XMLHttpRequest();
+const url='https://rocketelevatorapi20190405103718.azurewebsites.net/api/Building';
+Http.open("GET", url);
+
+Http.send();
+  
+    $(document).ready(function () {
+        $.getJSON(url,
+        function (json) {
+            var tr;
+            for (var i = 0; i < json.length; i++) {
+                tr = $('<tr/>');
+                tr.append("<td>" + json[i].customer_id + "</td>");
+                tr.append("<td>" + json[i].address_id + "</td>");
+                tr.append("<td>" + json[i].building_technical_contact_name + "</td>");
+                tr.append("<td>" + json[i].building_administrator_phone + "</td>");
+                tr.append("<td>" + json[i].building_administrator_email + "</td>");
+                tr.append("<td>" + json[i].building_administrator_full_name + "</td>");
+                tr.append("<td>" + json[i].building_administrator_phone + "</td>");
+                tr.append("<td>" + json[i].building_technical_contact_phone + "</td>");
+                $('#table4').append(tr);
+            }
+        });
+    });
+
+}
+
+</script>
+
+
+<%# GET battery%>
+
+
+   
+    <table id="table5">
+    <thead>
+        <tr>
+
+            <th>Customer id</th>    
+            <th>Full name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Business name</th>
+            <th>Project name</th>
+            <th>Department</th>
+            <th>Message</th>
+            <th>Created at</th>
+            <th>Updated</th>
+
+        </tr>
+    </thead>
+
+</table>
+</body>
+
+<script>
+function GetLead() {
+
+const Http = new XMLHttpRequest();
+const url='https://rocketelevatorapi20190405103718.azurewebsites.net/api/Lead/recent';
+Http.open("GET", url);
+
+Http.send();
+  
+    $(document).ready(function () {
+        $.getJSON(url,
+        function (json) {
+            var tr;
+            
+            for (var i = 0; i < json.length; i++) {
+                tr = $('<tr/>');
+                tr.append("<td>" + json[i].customer_id + "</td>");
+                tr.append("<td>" + json[i].full_name + "</td>");
+                tr.append("<td>" + json[i].email + "</td>");
+                tr.append("<td>" + json[i].phone + "</td>");
+                tr.append("<td>" + json[i].business_name + "</td>");
+                tr.append("<td>" + json[i].project_name + "</td>");
+                tr.append("<td>" + json[i].department + "</td>");
+                tr.append("<td>" + json[i].message + "</td>");
+                tr.append("<td>" + json[i].created_at + "</td>");
+                tr.append("<td>" + json[i].updated_at + "</td>");
+                $('#table5').append(tr);
+            }
+        });
+    });
+
+}
+
+</script>
+
+

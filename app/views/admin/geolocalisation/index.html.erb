@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 100%;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+  </head>
+  <body>
+
+  
+  
+    <center><h3 style=color:#0b64a0>Rocket Elevator buildings locations</h3></center>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+
+// Initialize and add the map
+function initMap() {
+
+                    // Qc localisation
+                  var usa = {lat: 39.7837304, lng: -100.4458825};
+
+                  // The map, centered at Qc
+                  var map = new google.maps.Map(
+                    document.getElementById('map'), {zoom: 4, center: usa}
+                  );
+
+
+                <% @markers.each do |location| %>
+                 
+                  var marker = new google.maps.Marker({
+                    position: {lat: <%= location[:lat] %>, lng: <%= location[:lng] %>},
+                    map: map
+                  });
+          
+                  var window = '<h3> <%= location[:address] %> </h3>' +
+                    'Customer: <%= location[:customer] %> </br>' + 
+                    'Batteries: <%= location[:batteries] %> </br>' +
+                    'Columns: <%= location[:columns] %> </br>' + 
+                    'Elevators: <%= location[:elevators] %> </br>' +
+                    'Floor number: <%= location[:nbfloor] %> </br>' +
+                    'Technician name: <%= location[:techname] %> </br>';
+
+                  marker.info = new google.maps.InfoWindow({
+                    content: window,
+                    maxWidth: 300	
+                  });
+                    
+                  marker.addListener('click', function() {
+                    this.info.open(map, this);
+                  });
+                    
+                  // return marker
+                  
+                <% end %>
+};
+              
+                 
+
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClb9FPXYlSiitLwRMZnZ7xZHXI10y0Z-w&callback=initMap">
+    </script>
+  </body>
+</html>
