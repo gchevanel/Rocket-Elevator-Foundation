@@ -1,5 +1,5 @@
 class Intervention < ApplicationRecord
-    belongs_to :building
-    establish_connection :development_pg
-    self.table_name = 'fact_interventions'
+    belongs_to :Customer
+    belongs_to :Building
+    belongs_to :
 end
