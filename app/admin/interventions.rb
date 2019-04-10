@@ -1,20 +1,29 @@
-Trestle.admin(:Create_Intervention) do
+Trestle.admin(:intervention) do
     menu do
       item :Create_Intervention, icon: "fa fa-bolt"
     end
-  
+    routes do
+        get :find_buildings
+        get :find_batteries
+        get :find_column
+        get :find_elevator
+        get 'thanksquote' => 'pages#thanksquote'
+        post :create
+    end
     controller do
       def index
             @customerids = Customer.all
             @interventions = Intervention.all
-            current_user.first_name
-   
+            # current_user.first_name
+        
             session[:user] = "#{current_user.first_name} #{current_user.last_name}"
         
           end
         
           def find_buildings
             @buildings = Building.where("customer_id = ?", params[:customer_id])
+
+
             respond_to do |format|
               format.js
             end
@@ -66,22 +75,24 @@ Trestle.admin(:Create_Intervention) do
         
             @intervention.Author = session[:user]
             @intervention.Customer_id = params[:customer_id]
-            @intervention.BuildingID = params[:building_id]
-            @intervention.BatteryID = params[:battery_id]
-            @intervention.ColumnID = params[:column_id]
-            @intervention.ElevatorID = params[:elevator_id]
-            @intervention.EmployeeID = params[:employee]
+            @intervention.Building_id = params[:building_id]
+            @intervention.Battery_id = params[:battery_id]
+            @intervention.Column_id = params[:column_id]
+            @intervention.Elevator_id = params[:elevator_id]
+            @intervention.Employee_id = params[:employee]
             @intervention.Result = "Incomplet"
             @intervention.Report = params[:message]
             @intervention.Statut = "Pending"
         
+            @username = Customer.find(params[:customer_id]).company_name
+            @employfirst = Administrator.find(params[:employee]).first_name
+            @employlast = Administrator.find(params[:employee]).last_name
+
             ZendeskAPI::Ticket.create!($client, 
-                :subject => "customer : #{@intervention.customer} for employee : #{@intervention.EmployeeID}", 
-                :comment => "The contact #{@lead.full_name} from company #{@lead.business_name} can be reached at email #{@lead.email} and at phone number #{@lead.phone}. 
-                #{@lead.department} has a project named #{@lead.project_name} which would require contribution from Rocket Elevators.
-                \n Project Description : #{@lead.project_description} 
-                \n Attached message : #{@lead.message}  
-                #{extra_text} ",
+                :subject => "customer : #{@username} Asked for a Intervention", 
+                :comment => "#{@intervention.Author} Create a Ticket for  #{@username} \n building :  #{@intervention.Building_id} \n Battery :  #{@intervention.Battery_id}
+                Column : #{@intervention.Column_id} \n Elevator : #{@intervention.Elevator_id} and \n #{@employfirst} #{@employlast} will respond to the report :\n #{@intervention.Report}.
+                ",
                 )
 
                 
@@ -130,5 +141,6 @@ Trestle.admin(:Create_Intervention) do
             def intervention_params
               params.permit(:employee, :customer_id, :building_id, :battery_id, :column_id, :elevator_id, :message)
             end
-        end 
+        end
+    
     end        

@@ -1,11 +1,11 @@
 <div class="row  int-position">
-	<%= form_with(model: @intervention, local: true) do |f| %>
+	<%= form_with(model: @intervention, url:"intervention/create", local: true) do |f| %>
 
     <div class="row">
     <div class="col-md-4"></div>
     <div class="col-md-4">
         <p>Employee</p>
-        <%= f.select(:employee, Administrator.all.collect {|c| ["#{c.first_name} #{c.last_name}", c.id]},  {prompt: "Select"}, {class: 'form-control'}) %>
+        <%= f.select(:employee, Administrator.all.collect {|c| ["#{c.first_name} #{c.last_name}", c.id]},  {prompt: "None"}, {class: 'form-control'}) %>
     </div>
         <div class="col-md-4"></div>
 </div>
@@ -36,7 +36,7 @@
     <div class="col-md-4"></div>
     <div class="col-md-4" id="column_ids">
         <p>column_id</p>
-        <%= f.select(:column_id, Column.all.collect {|t| [t.id, t.id]}, {prompt: "none"}, {class: 'form-control'}) %>
+        <%= f.select(:column_id, Column.all.collect {|t| [t.id, t.id]}, {prompt: "none"}, {class: 'form-control'})%>
     </div>
     <div class="col-md-4"></div>
 </div>
@@ -44,7 +44,7 @@
     <div class="col-md-4"></div>
     <div class="col-md-4" id="elevator_ids">
         <p>elevator_id</p>
-        <%= f.select(:elevator_id, Elevator.all.collect {|t| [t.id, t.id]}, {prompt: "none"}, {class: 'form-control'}) %>
+        <%= f.select(:elevator_id, Elevator.all.collect {|t| [t.id, t.id]}, {prompt: "none"}, {class: 'form-control'})%>
     </div>
     <div class="col-md-4"></div>
 </div>
@@ -94,7 +94,7 @@ $("#customer_id").change(function(){
   		$("#building_id, #building_ids").show();
   	}
   	$.ajax({
-	    url: "/interventions/find_buildings",
+	    url: "intervention/find_buildings",
 	    method: "GET",  
 	    dataType: "json",
 	    data: {customer_id: $("#customer_id option:selected").val()},
@@ -118,9 +118,11 @@ $("#building_id").change(function(){
   		$("#battery_id, #battery_ids").hide();
   	}else{
   		$("#battery_id, #battery_ids").show();
+                    $("#cmessage, #cmessagec").show();
+
   	}
   	$.ajax({
-	    url: "/interventions/find_batteries",
+	    url: "intervention/find_batteries",
 	    method: "GET",  
 	    dataType: "json",
 	    data: {building_id: $("#building_id option:selected").val()},
@@ -145,7 +147,7 @@ $("#battery_id").change(function(){
   		$("#column_id, #column_ids").show();
   	}
   	$.ajax({
-	    url: "/interventions/find_column",
+	    url: "intervention/find_column",
 	    method: "GET",  
 	    dataType: "json",
 	    data: {battery_id: $("#battery_id option:selected").val()},
@@ -154,7 +156,7 @@ $("#battery_id").change(function(){
 	    },
 	    success: function (data) {
 	      	$("#column_id").empty();
-	      	$("#column_id").append('<option>column_id</option>');
+	      	$("#column_id").append('<option>None</option>');
 	      	for(var i = 0; i < data.length; i++){
 	      		$("#column_id").append('<option value="' + data[i]["id"] + '">' +data[i]["id"] + '</option>');
 	      	}
@@ -167,13 +169,13 @@ $("#column_id").change(function(){
   	var project = $(this).val();
   	if(project == ''){
   		$("#elevator_id, #elevator_ids").hide();
+                    $("#elevator_id, #elevator_ids").show();
+
   	}else{
           $("#elevator_id, #elevator_ids").show();
-          $("#cmessage, #cmessagec").show();
-
   	}
   	$.ajax({
-	    url: "/interventions/find_elevator",
+	    url: "intervention/find_elevator",
 	    method: "GET",  
 	    dataType: "json",
 	    data: {column_id: $("#column_id option:selected").val()},
@@ -182,7 +184,7 @@ $("#column_id").change(function(){
 	    },
 	    success: function (data) {
 	      	$("#elevator_id").empty();
-	      	$("#elevator_id").append('<option>elevator_id</option>');
+	      	$("#elevator_id").append('<option>None</option>');
 	      	for(var i = 0; i < data.length; i++){
 	      		$("#elevator_id").append('<option value="' + data[i]["id"] + '">' +data[i]["id"] + '</option>');
 	      	}

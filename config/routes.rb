@@ -15,20 +15,20 @@ Rails.application.routes.draw do
   get 'subscription' => 'subscriptions#new'
   get 'thanksquote' => 'pages#thanksquote'
   get 'thankssubs' => 'pages#thankssubs'
-  post '/admin/create_intervention' => 'interventions#create'
   get 'watson' => 'watson#watson'
 
   get 'dropbox/auth' => 'dropbox#auth'
   get 'dropbox/auth_callback' => 'dropbox#auth_callback'
 
+
   resources :quotes
   resources :careers
   resources :subscriptions
   resources :leads
-  resources :interventions do
-    get :find_buildings, on: :collection
-    get :find_batteries, on: :collection
-    get :find_column, on: :collection
-    get :find_elevator, on: :collection
-  end
+#   resources :interventions
+#     get :find_buildings, on: :collection
+#     get :find_batteries, on: :collection
+#     get :find_column, on: :collection
+#     get :find_elevator, on: :collection
+#   end
 end
