@@ -1,0 +1,195 @@
+<div class="row  int-position">
+	<%= form_with(model: @intervention, url:"intervention/create", local: true) do |f| %>
+
+    <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <p>Employee</p>
+        <%= f.select(:employee, Administrator.all.collect {|c| ["#{c.first_name} #{c.last_name}", c.id]},  {prompt: "None"}, {class: 'form-control'}) %>
+    </div>
+        <div class="col-md-4"></div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <p>Customer</p>
+        <%= f.select(:customer_id, Customer.all.collect {|c| ["#{c.full_name} #{c.id}", c.id]},  {prompt: "Select"}, {class: 'form-control'}) %>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" id="building_ids">
+        <p >Building_id</p>
+        <%= f.select(:building_id, Building.all.collect {|t| [t.id, t.id]}, {prompt: "Select"}, {class: 'form-control'}) %>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" id="battery_ids">
+        <p>Battery_id</p>
+        <%= f.select(:battery_id, Battery.all.collect {|a| [a.id, a.id]}, {prompt: "Select"}, {class: 'form-control'}) %>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" id="column_ids">
+        <p>column_id</p>
+        <%= f.select(:column_id, Column.all.collect {|t| [t.id, t.id]}, {prompt: "none"}, {class: 'form-control'})%>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" id="elevator_ids">
+        <p>elevator_id</p>
+        <%= f.select(:elevator_id, Elevator.all.collect {|t| [t.id, t.id]}, {prompt: "none"}, {class: 'form-control'})%>
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+<div class="row" id="cmessagec">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <label for="contact:message">Report</label>
+        <textarea required maxlength="10000" rows="4" class="form-control" name="message" id="cmessage"></textarea>
+    <div class="col-md-2"></div>
+    </div>
+</div>
+
+
+<br>
+<br>
+
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+	<button type="submit"class="btn btn-primary btn-lg btn-block fs-15" >Send Quote Now</button>
+         </div> 
+    <div class="col-md-4"></div>
+
+
+
+  <% end %>
+</div>
+
+
+
+
+<script>
+
+
+$("#building_id, #building_ids").hide(); // second dropdown is disable while first dropdown is empty
+$("#battery_id, #battery_ids").hide();
+$("#column_id, #column_ids").hide();
+$("#cmessage, #cmessagec").hide();
+$("#elevator_id, #elevator_ids").hide();
+$("#customer_id").change(function(){
+  	var project = $(this).val();
+  	if(project == ''){
+  		$("#building_id, #building_ids").hide();
+  	}else{
+  		$("#building_id, #building_ids").show();
+  	}
+  	$.ajax({
+	    url: "intervention/find_buildings",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {customer_id: $("#customer_id option:selected").val()},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+	    success: function (data) {
+	      	$("#building_id").empty();
+	      	$("#building_id").append('<option>building_id</option>');
+	      	for(var i = 0; i < data.length; i++){
+	      		$("#building_id").append('<option value="' + data[i]["id"] + '">' +data[i]["id"] + '</option>');
+	      	}
+	    }
+  	});
+});
+
+
+$("#building_id").change(function(){
+  	var project = $(this).val();
+  	if(project == ''){
+  		$("#battery_id, #battery_ids").hide();
+  	}else{
+  		$("#battery_id, #battery_ids").show();
+                    $("#cmessage, #cmessagec").show();
+
+  	}
+  	$.ajax({
+	    url: "intervention/find_batteries",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {building_id: $("#building_id option:selected").val()},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+	    success: function (data) {
+	      	$("#battery_id").empty();
+	      	$("#battery_id").append('<option>battery_id</option>');
+	      	for(var i = 0; i < data.length; i++){
+	      		$("#battery_id").append('<option value="' + data[i]["id"] + '">' +data[i]["id"] + '</option>');
+	      	}
+	    }
+  	});
+});
+
+$("#battery_id").change(function(){
+  	var project = $(this).val();
+  	if(project == ''){
+  		$("#column_id, #column_ids").hide();
+  	}else{
+  		$("#column_id, #column_ids").show();
+  	}
+  	$.ajax({
+	    url: "intervention/find_column",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {battery_id: $("#battery_id option:selected").val()},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+	    success: function (data) {
+	      	$("#column_id").empty();
+	      	$("#column_id").append('<option>None</option>');
+	      	for(var i = 0; i < data.length; i++){
+	      		$("#column_id").append('<option value="' + data[i]["id"] + '">' +data[i]["id"] + '</option>');
+	      	}
+	    }
+  	});
+});
+
+
+$("#column_id").change(function(){
+  	var project = $(this).val();
+  	if(project == ''){
+  		$("#elevator_id, #elevator_ids").hide();
+                    $("#elevator_id, #elevator_ids").show();
+
+  	}else{
+          $("#elevator_id, #elevator_ids").show();
+  	}
+  	$.ajax({
+	    url: "intervention/find_elevator",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {column_id: $("#column_id option:selected").val()},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+	    success: function (data) {
+	      	$("#elevator_id").empty();
+	      	$("#elevator_id").append('<option>None</option>');
+	      	for(var i = 0; i < data.length; i++){
+	      		$("#elevator_id").append('<option value="' + data[i]["id"] + '">' +data[i]["id"] + '</option>');
+	      	}
+	    }
+  	});
+});
+
+</script>

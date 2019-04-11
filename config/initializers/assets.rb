@@ -12,6 +12,7 @@ Rails.application.config.assets.precompile += %w( turbolinks.js )
 
 Rails.application.config.assets.precompile += %w( chartkick.js )
 
+Rails.application.config.assets.precompile += %w(intervention.js)
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
