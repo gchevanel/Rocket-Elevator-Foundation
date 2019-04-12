@@ -90,7 +90,7 @@ Trestle.admin(:intervention) do
 
                 column_text = "Column : #{@intervention.Column_id} "
             else
-        
+                @intervention.Column_id = nil
                 column_text = ""
             end
 
@@ -98,7 +98,7 @@ Trestle.admin(:intervention) do
 
                 elevator_text = " Elevator : #{@intervention.Elevator_id}"
             else
-        
+                @intervention.Elevator_id = nil
                 elevator_text = ""
             end
 
