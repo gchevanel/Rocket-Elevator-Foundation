@@ -7,7 +7,7 @@ Trestle.admin(:intervention) do
         get :find_batteries
         get :find_column
         get :find_elevator
-        get 'thanksquote' => 'pages#thanksquote'
+        get 'index', to: 'interventions_admin/admin#index'
         post :create
     end
     controller do
@@ -98,7 +98,7 @@ Trestle.admin(:intervention) do
                 
             respond_to do |format|
               if @intervention.save!
-                format.html { redirect_to thanksquote_path, notice: 'Intervention was successfully created.' }
+                format.html { redirect_to interventions_admin_index_path, notice: 'Intervention was successfully created.' }
                 format.json { render :show, status: :created, location: @intervention }
               else
                 format.html { render :new }
