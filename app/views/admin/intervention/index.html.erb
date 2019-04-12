@@ -92,11 +92,11 @@ $("#customer_id").change(function(){
   		$("#building_id, #building_ids").hide();
         
   	}else{
-  		$("#building_id, #building_ids").show(500);
-        $("#battery_id, #battery_ids").hide(500);
-        $("#column_id, #column_ids").hide(500);
-        $("#cmessage, #cmessagec").hide(500);
-        $("#elevator_id, #elevator_ids").hide(500);
+  		$("#building_id, #building_ids").show(100);
+        $("#battery_id, #battery_ids").hide(100);
+        $("#column_id, #column_ids").hide(100);
+        $("#cmessage, #cmessagec").hide(100);
+        $("#elevator_id, #elevator_ids").hide(100);
   	}
   	$.ajax({
 	    url: "intervention/find_buildings",
@@ -130,8 +130,8 @@ $("#building_id").change(function(){
   	if(project == ''){
   		$("#battery_id, #battery_ids").hide();
   	}else{
-  		$("#battery_id, #battery_ids").show(500);
-                    $("#cmessage, #cmessagec").show(500);
+  		$("#battery_id, #battery_ids").show(100);
+                    $("#cmessage, #cmessagec").show(100);
 
   	}
   	$.ajax({
@@ -157,7 +157,7 @@ $("#battery_id").change(function(){
   	if(project == ''){
   		$("#column_id, #column_ids").hide();
   	}else{
-  		$("#column_id, #column_ids").show(500);
+  		$("#column_id, #column_ids").show(100);
   	}
   	$.ajax({
 	    url: "intervention/find_column",
@@ -185,7 +185,7 @@ $("#column_id").change(function(){
                     $("#elevator_id, #elevator_ids").show();
 
   	}else{
-          $("#elevator_id, #elevator_ids").show(500);
+          $("#elevator_id, #elevator_ids").show(100);
   	}
   	$.ajax({
 	    url: "intervention/find_elevator",

@@ -85,15 +85,39 @@ Trestle.admin(:intervention) do
             @intervention.Status = "Pending"
         
             @username = Customer.find(params[:customer_id]).company_name
-            @employfirst = Administrator.find(params[:employee]).first_name
-            @employlast = Administrator.find(params[:employee]).last_name
+
+            if @intervention.Column_id !=0
+
+                column_text = "Column : #{@intervention.Column_id} "
+            else
+        
+                column_text = ""
+            end
+
+            if @intervention.Elevator_id !=0
+
+                elevator_text = " Elevator : #{@intervention.Elevator_id}"
+            else
+        
+                elevator_text = ""
+            end
+
+            if @intervention.Employee_id !=nil
+                @employfirst = Administrator.find(params[:employee]).first_name
+                @employlast = Administrator.find(params[:employee]).last_name
+
+                extra_text = "\n and #{@employfirst} #{@employlast} will respond to the"
+            else
+        
+                extra_text = ""
+            end
 
             ZendeskAPI::Ticket.create!($client, 
                 :subject => "customer : #{@username} Asked for a Intervention", 
-                :comment => "#{@intervention.Author} Create a Ticket for  #{@username} \n building :  #{@intervention.Building_id} \n Battery :  #{@intervention.Battery_id}
-                Column : #{@intervention.Column_id} \n Elevator : #{@intervention.Elevator_id} and \n #{@employfirst} #{@employlast} will respond to the report :\n #{@intervention.Report}.
-                ",
-                )
+                :comment => "#{@intervention.Author} Create a Ticket for  #{@username} \n Building :  #{@intervention.Building_id} \n Battery :  #{@intervention.Battery_id}
+                #{column_text} #{elevator_text} #{extra_text} \n report :  #{@intervention.Report}.",
+                :type => "problem",
+                :priority => "urgent",)
 
                 
             respond_to do |format|
