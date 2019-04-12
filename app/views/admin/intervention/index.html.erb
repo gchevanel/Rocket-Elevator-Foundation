@@ -13,7 +13,7 @@
     <div class="col-md-4"></div>
     <div class="col-md-4">
         <p>Customer</p>
-        <%= f.select(:customer_id, Customer.all.collect {|c| ["#{c.full_name} #{c.id}", c.id]},  {prompt: "Select"}, {class: 'form-control'}) %>
+        <%= f.select(:customer_id, Customer.all.collect {|c| ["#{c.company_name}", c.id]},  {prompt: "Select"}, {class: 'form-control'}) %>
     </div>
     <div class="col-md-4"></div>
 </div>
@@ -90,8 +90,13 @@ $("#customer_id").change(function(){
   	var project = $(this).val();
   	if(project == ''){
   		$("#building_id, #building_ids").hide();
+        
   	}else{
-  		$("#building_id, #building_ids").show();
+  		$("#building_id, #building_ids").show(500);
+        $("#battery_id, #battery_ids").hide(500);
+        $("#column_id, #column_ids").hide(500);
+        $("#cmessage, #cmessagec").hide(500);
+        $("#elevator_id, #elevator_ids").hide(500);
   	}
   	$.ajax({
 	    url: "intervention/find_buildings",
@@ -103,7 +108,15 @@ $("#customer_id").change(function(){
 	    },
 	    success: function (data) {
 	      	$("#building_id").empty();
-	      	$("#building_id").append('<option>building_id</option>');
+	      	$("#battery_id").empty();
+	      	$("#column_id").empty();
+	      	$("#cmessage").empty();
+	      	$("#elevator_id").empty();
+	      	$("#building_id").append('<option>Select building_id</option>');
+            $("#battery_id").append('<option>Select battery_id</option>');
+            $("#column_id").append('<option>None</option>');
+            $("#cmessage").append('<option>cmessage</option>');
+            $("#elevator_id").append('<option>None</option>');
 	      	for(var i = 0; i < data.length; i++){
 	      		$("#building_id").append('<option value="' + data[i]["id"] + '">' +data[i]["id"] + '</option>');
 	      	}
@@ -117,8 +130,8 @@ $("#building_id").change(function(){
   	if(project == ''){
   		$("#battery_id, #battery_ids").hide();
   	}else{
-  		$("#battery_id, #battery_ids").show();
-                    $("#cmessage, #cmessagec").show();
+  		$("#battery_id, #battery_ids").show(500);
+                    $("#cmessage, #cmessagec").show(500);
 
   	}
   	$.ajax({
@@ -144,7 +157,7 @@ $("#battery_id").change(function(){
   	if(project == ''){
   		$("#column_id, #column_ids").hide();
   	}else{
-  		$("#column_id, #column_ids").show();
+  		$("#column_id, #column_ids").show(500);
   	}
   	$.ajax({
 	    url: "intervention/find_column",
@@ -172,7 +185,7 @@ $("#column_id").change(function(){
                     $("#elevator_id, #elevator_ids").show();
 
   	}else{
-          $("#elevator_id, #elevator_ids").show();
+          $("#elevator_id, #elevator_ids").show(500);
   	}
   	$.ajax({
 	    url: "intervention/find_elevator",
