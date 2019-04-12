@@ -25,7 +25,7 @@ class InterventionsTest < ApplicationSystemTestCase
     fill_in "Interventionstartingdate", with: @intervention.InterventionStartingDate
     fill_in "Report", with: @intervention.Report
     fill_in "Result", with: @intervention.Result
-    fill_in "Statut", with: @intervention.Statut
+    fill_in "Status", with: @intervention.Status
     click_on "Create Intervention"
 
     assert_text "Intervention was successfully created"
@@ -47,7 +47,7 @@ class InterventionsTest < ApplicationSystemTestCase
     fill_in "Interventionstartingdate", with: @intervention.InterventionStartingDate
     fill_in "Report", with: @intervention.Report
     fill_in "Result", with: @intervention.Result
-    fill_in "Statut", with: @intervention.Statut
+    fill_in "Status", with: @intervention.Status
     click_on "Update Intervention"
 
     assert_text "Intervention was successfully updated"

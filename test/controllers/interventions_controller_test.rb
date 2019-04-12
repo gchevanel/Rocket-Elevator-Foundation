@@ -17,7 +17,7 @@ class InterventionsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create intervention" do
     assert_difference('Intervention.count') do
-      post interventions_url, params: { intervention: { Author: @intervention.Author, BatteryID: @intervention.BatteryID, BuildingID: @intervention.BuildingID, ColumnID: @intervention.ColumnID, CustomerID: @intervention.CustomerID, ElevatorID: @intervention.ElevatorID, EmployeeID: @intervention.EmployeeID, InterventionFinishedDate: @intervention.InterventionFinishedDate, InterventionStartingDate: @intervention.InterventionStartingDate, Report: @intervention.Report, Result: @intervention.Result, Statut: @intervention.Statut } }
+      post interventions_url, params: { intervention: { Author: @intervention.Author, BatteryID: @intervention.BatteryID, BuildingID: @intervention.BuildingID, ColumnID: @intervention.ColumnID, CustomerID: @intervention.CustomerID, ElevatorID: @intervention.ElevatorID, EmployeeID: @intervention.EmployeeID, InterventionFinishedDate: @intervention.InterventionFinishedDate, InterventionStartingDate: @intervention.InterventionStartingDate, Report: @intervention.Report, Result: @intervention.Result, Status: @intervention.Status } }
     end
 
     assert_redirected_to intervention_url(Intervention.last)
@@ -34,7 +34,7 @@ class InterventionsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update intervention" do
-    patch intervention_url(@intervention), params: { intervention: { Author: @intervention.Author, BatteryID: @intervention.BatteryID, BuildingID: @intervention.BuildingID, ColumnID: @intervention.ColumnID, CustomerID: @intervention.CustomerID, ElevatorID: @intervention.ElevatorID, EmployeeID: @intervention.EmployeeID, InterventionFinishedDate: @intervention.InterventionFinishedDate, InterventionStartingDate: @intervention.InterventionStartingDate, Report: @intervention.Report, Result: @intervention.Result, Statut: @intervention.Statut } }
+    patch intervention_url(@intervention), params: { intervention: { Author: @intervention.Author, BatteryID: @intervention.BatteryID, BuildingID: @intervention.BuildingID, ColumnID: @intervention.ColumnID, CustomerID: @intervention.CustomerID, ElevatorID: @intervention.ElevatorID, EmployeeID: @intervention.EmployeeID, InterventionFinishedDate: @intervention.InterventionFinishedDate, InterventionStartingDate: @intervention.InterventionStartingDate, Report: @intervention.Report, Result: @intervention.Result, Status: @intervention.Status } }
     assert_redirected_to intervention_url(@intervention)
   end
 

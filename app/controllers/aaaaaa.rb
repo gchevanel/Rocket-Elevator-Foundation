@@ -82,7 +82,7 @@
 #     @intervention.Employee_id = params[:employee]
 #     @intervention.Result = "Incomplet"
 #     @intervention.Report = params[:message]
-#     @intervention.Statut = "Pending"
+#     @intervention.Status = "Pending"
 
 
 #     respond_to do |format|
