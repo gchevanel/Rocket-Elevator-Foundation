@@ -82,7 +82,7 @@ Trestle.admin(:intervention) do
             @intervention.Employee_id = params[:employee]
             @intervention.Result = "Incomplet"
             @intervention.Report = params[:message]
-            @intervention.Statut = "Pending"
+            @intervention.Status = "Pending"
         
             @username = Customer.find(params[:customer_id]).company_name
             @employfirst = Administrator.find(params[:employee]).first_name

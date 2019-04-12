@@ -12,7 +12,7 @@ one:
   InterventionFinishedDate: MyString
   Result: MyString
   Report: MyString
-  Statut: MyString
+  Status: MyString
 
 two:
   Author: MyString
@@ -26,4 +26,4 @@ two:
   InterventionFinishedDate: MyString
   Result: MyString
   Report: MyString
-  Statut: MyString
+  Status: MyString

@@ -12,7 +12,7 @@ class CreateInterventions < ActiveRecord::Migration[5.2]
       t.datetime :InterventionFinishedDate
       t.string :Result
       t.string :Report
-      t.string :Statut
+      t.string :Status
 
       t.timestamps
     end

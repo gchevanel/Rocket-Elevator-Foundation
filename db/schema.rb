@@ -189,7 +189,7 @@ ActiveRecord::Schema.define(version: 2019_04_08_124113) do
     t.datetime "InterventionFinishedDate"
     t.string "Result"
     t.string "Report"
-    t.string "Statut"
+    t.string "Status"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
