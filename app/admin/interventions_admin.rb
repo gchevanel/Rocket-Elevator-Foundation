@@ -1,4 +1,5 @@
 Trestle.resource(:interventions) do
+ 
   menu do
     item :interventions, icon: "fa fa-star"
   end
@@ -11,16 +12,16 @@ Trestle.resource(:interventions) do
   #   actions
   # end
 
-  # Customize the form fields shown on the new/edit views.
-  #
-  # form do |intervention|
-  #   text_field :name
-  #
-  #   row do
-  #     col(xs: 6) { datetime_field :updated_at }
-  #     col(xs: 6) { datetime_field :created_at }
-  #   end
-  # end
+#   Customize the form fields shown on the new/edit views.
+  
+#   form do |intervention|
+#     text_field :name
+  
+#     row do
+#       col(xs: 6) { datetime_field :updated_at }
+#       col(xs: 6) { datetime_field :created_at }
+#     end
+#   end
 
   # By default, all parameters passed to the update and create actions will be
   # permitted. If you do not have full trust in your users, you should explicitly
