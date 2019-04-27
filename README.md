@@ -1,15 +1,34 @@
 ROCKET ELEVATORS WEEK 11
+
 TDD
+
 COMMANDS bundle exec rspec
+
 here are the test path
 
+
 test for api
+
 streamer.rb (lib/elevatorMedia/streamer.rb)
+
 streamer_spec (spec/lib/elevatorMedia/streamer_spec.rb)
 
+
 test for controller
+
 leads_spec.rb (spec/controllers/leads_spec.rb)
+
 quotes_spec.rb (spec/controllers/quotes_spec.rb)
+
+
+
+
+
+
+
+
+
+
 
 ![](http://rocketelevator.ca/assets/R2-3c6296bf2343b849b947f8ccfce0de61dd34ba7f9e2a23a53d0a743bc4604e3c.png)
 
