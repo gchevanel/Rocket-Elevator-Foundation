@@ -24,7 +24,7 @@ class QuotesController < ApplicationController
   # POST /quotes
   # POST /quotes.json
   def create
-    @quote = Quote.new()
+    @quote = Quote.new(quote_params)
 
     if params[:department] == 'Residential'
         @quote.Full_Name = quote_params[:Full_Name]

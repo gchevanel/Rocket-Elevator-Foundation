@@ -7,6 +7,7 @@ class Streamer
 
 
     end
+    # here is the get content for the chuck norris joke and image url
     def getContent (type='chuck norris')
         getHtmlResult(type)
     end
@@ -23,12 +24,13 @@ class Streamer
             
         
     end
+    # spotify
+
     def SpotifyMusic
         @response = RestClient::Request.execute(method: :get, url: ENV['spotifyapi'],
             headers: {"Content-type": "application/json"})
         
     end
-
     def SpotifyNameMusic
         @response = RestClient::Request.execute(method: :get, url: ENV['spotifyapi'],
             headers: {"Content-type": "application/json"})
@@ -36,7 +38,7 @@ class Streamer
             return user;
         
     end
-
+# weather
     def GetCityWeather
         # get current weather by city name
         options = { units: "metric", APPID: ENV['weatherapi'] }

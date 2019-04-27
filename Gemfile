@@ -34,6 +34,7 @@ gem 'slack-notifier'
 gem 'faraday', '~> 0.9.2'
 gem 'graphql', '1.8.13'
 gem 'graphiql-rails', '1.5.0'
+gem 'rails-controller-testing'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'

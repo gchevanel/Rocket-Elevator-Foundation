@@ -7,7 +7,7 @@ describe Streamer do
 
     let!(:streamer){Streamer.new}
 
-
+            # test for weather
         context 'Quebec weather' do 
             it 'Current City Weather' do
                 currentCityWeather = streamer.GetCityWeather['weather'][0]
@@ -26,7 +26,7 @@ describe Streamer do
             end
         end
 
-
+        # test for chuck norris
         it 'chuck norris' do
             expect(subject.chucknorris).to_not eq(nil)
         end
@@ -34,6 +34,8 @@ describe Streamer do
         it 'chuck norris' do
             expect(subject.chucknorris).to_not have_http_status(404)
         end
+
+        # spotify
         it 'Spotify' do
             expect(subject.SpotifyMusic).to_not eq(nil)
         end
@@ -44,7 +46,7 @@ describe Streamer do
 
 
         describe 'Get content behavior' do
-            
+            # here is for the return of get content
             it 'return valid html' do
 
                 result = streamer.getContent()
